@@ -1,0 +1,231 @@
+@font-face {
+    font-family: FeelScript;
+    src: url('../fonts/feel-script.otf');
+}
+@font-face {
+    font-family: Harring;
+    src: url('../fonts/harring.ttf');
+}
+@font-face {
+    font-family: FrenchScriptMT;
+    src: url('../fonts/french-script-mt.ttf');
+}
+
+.charlotte-header{
+    background: #fff url('../images/bg.jpg') no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    
+}
+
+/*
+body{
+    overflow: hidden;
+}
+*/
+
+/*navigation images*/
+img{
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    z-index: 10;
+    height: 150px;
+}
+.charlotte-nav {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 10;
+  }
+
+  .charlotte-menu.nav-pills {
+    padding-top: 5px;
+    padding-right: 0;
+    margin: 0 !important;
+    width: 700px;
+  }
+  .charlotte-menu.nav-pills li {
+    background: transparent url('../images/nav-item.png') no-repeat center center;
+    background-size: contain;
+    height: 90px;
+    line-height: 90px;
+    width: 15%;
+    margin: 0 2%;
+    display: block;
+    text-align: center;
+  }
+  .charlotte-menu.nav-pills li a {
+    background: none !important;
+    vertical-align: middle;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+  }
+.charlotte-menu {
+    float: right !important;
+    padding-top: 40px;
+    padding-right: 0;
+    margin: 0 !important;
+}
+
+/*body*/
+
+.charlotte-body {
+    padding-top: 100px;
+  }
+.charlotte-body {
+    padding-top: 0;
+}
+ .charlotte-text-fancy {
+    margin-top: 20px;
+    font-family: FrenchScriptMT, sans-serif;
+    font-size: 110px;
+    color: #ffd382;
+    height: 100px;
+
+
+  }
+
+
+ .charlotte-text-fancy-content {
+    line-height: 0.95;
+    text-shadow: 0 2px 2px #000, 0 2px 2px #000, 0 2px 2px #000, 0 2px 2px #000;
+    color: white;
+    position: relative;
+  }
+ .charlotte-text-fancy-content {
+    line-height: 0.95;
+
+
+  	-webkit-transform-origin: 50% 0;
+  	-moz-transform-origin: 50% 0;
+  	-ms-transform-origin: 50% 0;
+  	-o-transform-origin: 50% 0;
+  	transform-origin: 50% 0;
+
+
+  	-webkit-transform: perspective(300px) rotateX(-10deg) scaleX(0.8);
+  	-moz-transform: perspective(300px) rotateX(-10deg) scaleX(0.8);
+  	-ms-transform: perspective(300px) rotateX(-10deg) scaleX(0.8);
+  	-o-transform: perspective(300px) rotateX(-10deg) scaleX(0.8);
+
+  	transform: perspective(300px) rotateX(-10deg) scaleX(0.8);
+    position: absolute;
+    height: 800px;
+    overflow: hidden;
+    width:100%;
+    
+
+  }
+
+
+/* animation */
+.charlotte-text-fancy-content-inner {
+position: absolute;
+top: 80%;
+
+
+-webkit-animation: scroll 70s linear 1s infinite;
+-moz-animation: scroll 70s linear 1s infinite;
+-ms-animation: scroll 70s linear 1s infinite;
+-o-animation: scroll 70s linear 1s infinite;
+
+
+animation: scroll 70s linear 1s infinite;
+    overflow: hidden;
+
+}
+
+.testimonials-font{
+    font-size:14px !important;
+}
+.online-font{
+    font-size: 14px !important;
+}
+@-webkit-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-moz-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-ms-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-o-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -300%; }
+}
+
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+
+/*about*/
+.textarea-about{
+    background-color: rgba(255,255,255, 0.8);
+    position: absolute;
+    top: 30%;
+    margin-left: 30px;
+    font-size: 40px;
+    padding: 20px;
+    width: 1200px;
+    font-family: FrenchScriptMT, sans-serif;
+    line-height: 1;
+    
+    
+    
+}
+/*testimonial*/
+.textarea-testimonial{
+    background-color: rgba(255,255,255, 0.8);
+    position: absolute;
+    top: 30%;
+    margin-left: 30px;
+    font-size: 30px;
+    padding: 20px;
+    width: 1200px;
+    font-family: FrenchScriptMT, sans-serif;
+    line-height: 1;
+    max-height: 300px;
+    overflow: scroll !important;
+    
+    
+}
+/*contact*/
+.textarea-contact{
+    text-align: center;
+     background-color: rgba(255,255,255, 0.8);
+    position: absolute;
+    top: 30%;
+    margin-left: 200px;
+    font-size: 40px;
+    padding: 20px;
+    width: 700px;
+    font-family: FrenchScriptMT, sans-serif;
+    line-height: 1;
+    
+}
+.contact-phone{
+    font-weight: 700;
+}
+ .ml{
+    margin-right: 100px;
+}
