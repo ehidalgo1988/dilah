@@ -233,16 +233,24 @@ animation: scroll 70s linear 2s infinite;
 }
 
 /* section-reading */
- 
+.title-form{
+    font-size: 20px;
+    text-align: center
+}
 ._form{
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 60px;
+    padding: 25px;
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.form-note{
+    text-align: center;
+    margin-top: 5px;
+}
  
 audio{
     position: absolute;
