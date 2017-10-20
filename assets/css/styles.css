@@ -208,14 +208,23 @@ animation: scroll 70s linear 2s infinite;
     max-height: 300px;
     overflow: scroll !important;
     
-    
+}
+.disclaimer{
+    color: white;
+    z-index: 12;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 /*contact*/
 .textarea-contact{
     text-align: center;
      background-color: rgba(255,255,255, 0.8);
      position: absolute;
-     top: 50%;
+     top: 60%;
      left: 50%;
      transform: translate(-50%, -50%);
     font-size: 40px;
@@ -224,6 +233,13 @@ animation: scroll 70s linear 2s infinite;
     font-family: FrenchScriptMT, sans-serif;
     line-height: 1;
     
+}
+.logo-contact{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 12;
 }
 .contact-phone{
     font-weight: 700;
