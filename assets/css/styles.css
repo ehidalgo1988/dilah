@@ -140,7 +140,6 @@ top: 80%;
 -ms-animation: scroll 70s linear 1s infinite;
 -o-animation: scroll 70s linear 1s infinite;
 
-
 animation: scroll 70s linear 1s infinite;
     overflow: hidden;
 
@@ -169,7 +168,7 @@ animation: scroll 70s linear 1s infinite;
 
 @-o-keyframes scroll {
 	0% { top: 100%; }
-	100% { top: -300%; }
+	100% { top: -170%; }
 }
 
 @keyframes scroll {
@@ -246,5 +245,6 @@ animation: scroll 70s linear 1s infinite;
 
  
 audio{
-    clear: both;
+    position: absolute;
+    bottom: 0;
 }
