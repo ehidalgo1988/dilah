@@ -132,17 +132,17 @@ img{
 /* animation */
 .charlotte-text-fancy-content-inner {
 position: absolute;
-top: 80%;
 
 
--webkit-animation: scroll 70s linear 1s infinite;
--moz-animation: scroll 70s linear 1s infinite;
--ms-animation: scroll 70s linear 1s infinite;
--o-animation: scroll 70s linear 1s infinite;
+/* 
+-webkit-animation: scroll 70s linear 5s infinite;
+-moz-animation: scroll 70s linear 5s infinite;
+-ms-animation: scroll 70s linear 5s infinite;
+-o-animation: scroll 70s linear 5s infinite; */
 
-animation: scroll 70s linear 1s infinite;
+animation: scroll 70s linear 2s infinite;
     overflow: hidden;
-
+    top: 100%;
 }
 
 .testimonials-font{
@@ -151,29 +151,29 @@ animation: scroll 70s linear 1s infinite;
 .online-font{
     font-size: 14px !important;
 }
-@-webkit-keyframes scroll {
+ @-webkit-keyframes scroll {
 	0% { top: 100%; }
-	100% { top: -170%; }
+	100% { top: -270%; }
 }
 
 @-moz-keyframes scroll {
 	0% { top: 100%; }
-	100% { top: -170%; }
+	100% { top: -270%; }
 }
 
 @-ms-keyframes scroll {
 	0% { top: 100%; }
-	100% { top: -170%; }
+	100% { top: -270%; }
 }
 
 @-o-keyframes scroll {
 	0% { top: 100%; }
-	100% { top: -170%; }
-}
+	100% { top: -270%; }
+} 
 
 @keyframes scroll {
 	0% { top: 100%; }
-	100% { top: -170%; }
+	100% { top: -270%; }
 }
 
 
