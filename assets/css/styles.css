@@ -453,6 +453,54 @@ audio{
     width: 400px;
 }
 }
+@media only screen and (max-width: 376px){
+    .charlotte-header{
+    background-repeat: repeat;
+    }
+    .charlotte-menu li {
+        width: 5%;
+        height: 3px;
+        padding: 30px;
+    }
+    .charlotte-menu li a{
+       font-size: 6px;
+        line-height: 0px;
+        position: absolute;
+        top:30px;
+        left: 12px;
+    }
+    .charlotte-menu li:last-child {
+     height: 60px;
+    font-size: 8px;
+  }
+.testimonials-font{
+    font-size:8px !important;
+}
+      .online-font{
+    font-size: 6px !important;
+}
+    /* animation text */
+    .charlotte-text-fancy{
+        font-size :30px;
+    }
+    .charlotte-text-fancy-content{
+        width: 80%;
+    }
+     /*contact*/
+    .textarea-contact{
+    font-size: 30px;
+    width: 350px;
+    
+    }
+    ._form{
+    width: 600px;
+}
+
+}
+@media only screen and (max-width: 320px){
+    
+}
+
 
 
 
