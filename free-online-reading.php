@@ -21,32 +21,26 @@
   <body>
     <!-- Latest compiled and minified CSS -->
     
-      <div class="container-fluid charlotte-header">
-      <div class="row head-row">
-
-        <div class="col-md-6 charlotte-logo">
-        </div>
-
-        <div class="col-md-6 charlotte-nav">
-          <ul class="nav nav-pills charlotte-menu navbar-right">
-              <li role="presentation">
+      <div class="container-fluid charlotte-header ">
+        <div class=" charlotte-nav ">
+          <ul class=" charlotte-menu ">
+              <li >
                   <a href="index.html">Home</a>
                 </li>
            
-            <li role="presentation">
+            <li >
               <a href="about.html">About Dinah</a>
             </li>
-            <li role="presentation">
+            <li >
               <a href="testimonials.html" class="testimonials-font">Testimonials</a>
             </li>
-            <li role="presentation">
+            <li >
               <a href="contact.html">Contact Dinah</a>
             </li>
             
             
           </ul>
-        </div>
-      </div>
+        </div><!--/charlot-nav-->
       <div class="section-reading">
 
         <div class="container _form">
@@ -54,13 +48,13 @@
              by filling out form below
         </h1>
           <div class="row">
+            
+            <form action="mailer.php" method="POST" class="form-horizontal" > 
             <div class="col-md-6 ">
-            <form action="" class="form-horizontal" >
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" name="name" placeholder="Please enter your name" >
               </div>
-
               <div class="form-group">
                 <label for="date">Date of birth</label>
                 <input type="text" class="form-control" id="date" name="date" placeholder="Please enter your date of birth" >
@@ -72,12 +66,12 @@
               </div>
               
                <div class="form-group">
-                  <label for="city">State or Province</label>
-                  <input type="text" class="form-control" id="city" name="state" placeholder="Please enter your State or Province" >
+                  <label for="State">State or Province</label>
+                  <input type="text" class="form-control" id="State" name="state" placeholder="Please enter your State or Province" >
               </div>
 
               <div class="form-group">
-                  <label for="Country">Country</label>
+                  <label for="country">Country</label>
                   <input type="text" class="form-control" id="country" name="country" placeholder="Please enter your country" >
               </div>
             			
@@ -106,18 +100,18 @@
                 <textarea class="form-control" id="details" name="details" rows="3"></textarea>
                 <br>
             </div><!-- end of col-md-6 -->
-            <input type="submit" value="Submit" class="btn btn-primary btn-lg btn-block">
-            </form>
-            <p class="lead form-note">  Readings are not immediately returned I do all reading 
-                      myself and do take a few hours to complete be patient </p>
-          </div>
-        </div>
+               <input type="submit" value="Submit" class="btn btn-primary btn-lg btn-block">
+          </form>
+         
+              </div><!--/row-->
+           
           
-        </div>
-        
-      </div>
+            <p class=" form-note">  Readings are not immediately returned I do all reading 
+                      myself and do take a few hours to complete be patient </p>
+        </div><!--/.form-->
+      </div><!--/section-reading-->
 <!--      MESSAGE-->
-
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -125,6 +119,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
-    <script src=""></script>
+    <script src="assets/js/functions.js"></script>
     </body>
 </html>
