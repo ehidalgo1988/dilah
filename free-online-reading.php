@@ -104,10 +104,7 @@
           </form>
          
               </div><!--/row-->
-           
           
-            <p class=" form-note">  Readings are not immediately returned I do all reading 
-                      myself and do take a few hours to complete be patient </p>
         </div><!--/.form-->
       </div><!--/section-reading-->
 <!--      MESSAGE-->

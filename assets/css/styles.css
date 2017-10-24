@@ -185,13 +185,13 @@ z-index: 20;
     overflow: scroll !important;
     
 }
-.disclaimer{
+.disclaimer{ 
     color: white;
     z-index: 12;
-    font-size: 16px;
+    font-size: 14px;
     position: absolute;
-    bottom: 0;
     text-align: center;
+    bottom: -3%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
@@ -215,8 +215,8 @@ z-index: 20;
 .logo-contact{
     width: 40%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -1%;
+    left: -2%;
     z-index: 12;
 }
 .contact-phone{
@@ -246,6 +246,7 @@ z-index: 20;
     
 }
 
+
 .form-note{
     text-align: center;
     margin-top: 5px;
@@ -256,6 +257,15 @@ z-index: 20;
 }
 ._form p{
     margin-bottom: 0;
+}
+.thank-you{
+    text-shadow: 0 2px 2px #000, 0 2px 2px #000, 0 2px 2px #000, 0 2px 2px #000;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
 }
 audio{
     position: absolute;
