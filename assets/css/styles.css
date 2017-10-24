@@ -314,7 +314,7 @@ audio{
     .logo{
         position: absolute;
         top: 15%;
-        width: 30%;
+        width: 90%;
     }
     .charlotte-nav{
         left: 2%;
@@ -421,6 +421,8 @@ audio{
     .charlotte-header{
         background-repeat: repeat;
     }
+    .logo{
+    }
     .charlotte-menu li {
         width: 11%;
         height: 8px;
@@ -470,6 +472,9 @@ audio{
         overflow: hidden;
     }
     .charlotte-header{
+        background-image: url('../images/mobile-bg.jpg');
+        background-position: center;
+        background-size: cover;
     }
     .charlotte-menu li {
         width: 10px;;
@@ -506,7 +511,7 @@ audio{
     
        /*about*/
     .textarea-about{
-    font-size: 15px;
+    font-size: 20px;
     padding: 20px;
     width: 300px;
     line-height: 1;
