@@ -25,7 +25,7 @@
         <div class=" charlotte-nav ">
           <ul class=" charlotte-menu ">
               <li >
-                  <a href="index.html">Home</a>
+                  <a href="index.html"><span class="home"></span>Home</a>
                 </li>
            
             <li >
@@ -104,10 +104,7 @@
           </form>
          
               </div><!--/row-->
-           
           
-            <p class=" form-note">  Readings are not immediately returned I do all reading 
-                      myself and do take a few hours to complete be patient </p>
         </div><!--/.form-->
       </div><!--/section-reading-->
 <!--      MESSAGE-->

@@ -25,7 +25,7 @@
     $recipient = "dinahjohn64@gmail.com";
 
     // Set the email subject.
-    $subject = "New contact from $name";
+    $subject = "Free online reading from $name";
 
     // Build the email content.
     $email_content = "Name: $name\n";
@@ -46,6 +46,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Redirect to the index.html page with success code
-    header("Location:http://dinahjohn.com/index.html");
+    header("Location:http://dinahjohn.com/thank.html");
 
 ?>

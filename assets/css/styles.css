@@ -34,18 +34,18 @@ img{
 
 .logo{
     z-index: 10;
-    width: 35%;
+    width: 45%;
 }
 .header {
 	height: 50px;
 }
 .charlotte-nav {
     z-index: 10;
-    width: 900px;
+    width: 1000px;
     margin-top: 20px;
     position: absolute;
     top: 0;
-    left: 48%;
+    left: 46%;
     
   }
  
@@ -57,36 +57,57 @@ img{
     float: left;
     margin-right:10px;
     text-align: center;
-    height: auto;
-    width: 18%;
+    height: 30px;
+    width: 14%;
     list-style: none;
+    position: relative;
     
   }
 
  
   .charlotte-menu li a {
+    position: absolute;
+    top: 20px;
+    left:22px;
     color: #fff;
     font-size: 14px;
     margin: 0;
     list-style: none;
   }
+  .charlotte-menu li a:last-child {
+      position: absolute;
+  }
+.online{
+    position: absolute;
+    left: 0px;
+    top:-10px;
+    width: 100px;
+
+}
+.home{
+    margin-left: 25px;
+}
  
 span{
    margin-bottom: 10px;
+       
 }
 
 .testimonials-font{
     font-size:14px !important;
+
 }
 .online-font{
-    font-size: 10.2px !important;
+    font-size: 14px !important;
+    left:0;
+    
 }
 
 /*body*/
 
  .charlotte-text-fancy {
     font-family: FrenchScriptMT, sans-serif;
-    font-size: 100px;
+    font-size: 90px;
     color: #ffd382;
     height: 550px;
     z-index: 12;
@@ -164,13 +185,13 @@ z-index: 20;
     overflow: scroll !important;
     
 }
-.disclaimer{
+.disclaimer{ 
     color: white;
     z-index: 12;
-    font-size: 16px;
+    font-size: 14px;
     position: absolute;
-    bottom: 0;
     text-align: center;
+    bottom: -3%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
@@ -192,10 +213,10 @@ z-index: 20;
     
 }
 .logo-contact{
-    width: 30%;
+    width: 40%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -1%;
+    left: -2%;
     z-index: 12;
 }
 .contact-phone{
@@ -211,17 +232,20 @@ z-index: 20;
     font-size: 20px;
     text-align: center
 }
+/*free online reading page*/
 ._form{
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 25px;
-   
+    padding:20px;
+   width:90%;
+    height: 80%;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     
 }
+
 
 .form-note{
     text-align: center;
@@ -233,6 +257,16 @@ z-index: 20;
 }
 ._form p{
     margin-bottom: 0;
+}
+.thank-you{
+    text-shadow: 0 2px 2px #000, 0 2px 2px #000, 0 2px 2px #000, 0 2px 2px #000;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:50%;
+    top:50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 }
 audio{
     position: absolute;
@@ -281,7 +315,7 @@ audio{
     .logo{
         position: absolute;
         top: 15%;
-        width: 30%;
+        width: 90%;
     }
     .charlotte-nav{
         left: 2%;
@@ -308,7 +342,7 @@ audio{
     /*contact*/
 
 .logo-contact{
-    width: 30%;
+    width: 60%;
     top: 12%;
 }
 /* section-reading */
@@ -384,14 +418,14 @@ audio{
 
     
 }
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 480px){
     .charlotte-nav{
         position: absolute;
-        left:0;
+        left:-38px;
     }
-    
+
     .charlotte-menu li {
-        width: 12%;
+        width: 11.5%;
         height: 4px;
         position: relative;
         padding: 30px;
@@ -400,14 +434,15 @@ audio{
        font-size: 10px;
         position: absolute;
         top:30px;
-        left: 12px;
+        left: 20px;
     }
     .charlotte-menu li:last-child {
      height: 60px;
-    font-size: 8px;
+    font-size: 7px;
   }
     .online-font{
-    font-size: 8px !important;
+    margin-top: 9px !important;
+    font-size: 10px !important;
 }
   
            /*about*/
@@ -421,34 +456,54 @@ audio{
         /*testimonial*/
     .textarea-testimonial{
     font-size: 30px;
-    width: 400px;
+    width: 460px;
     
 }
+    .disclaimer {
+	font-size: 12px;
+}
         /*contact*/
+    .logo-contact{
+        
+    }
     .textarea-contact{
     font-size: 40px;
     width: 450px;
     
-}
-    ._form{
-    width: 400px;
-}
-}
-@media only screen and (max-width: 373px){
-    body{
-        overflow: hidden;
     }
+    .textarea-contact h1{
+        
+        line-height: 28px;
+    }
+    ._form{
+    top:80%;
+    width: 400px;
+    padding-bottom: 900px; 
+}
+    .thank-you{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+   
    
     .charlotte-nav{
         left: -38px;
     }
+    .charlotte-header{
+        background-image: url('../images/mobile-bg.jpg');
+        background-position: center;
+        background-size:auto;
+    }
     .charlotte-menu li {
-        width: 70px;
-        height: 10px;
+        width: 8%;
         padding: 20px;
     }
     .charlotte-menu li a{
-       font-size: 6px;
+       font-size: 10px;
+        top: 20px;
+        left: 10px;
        
     }
     .charlotte-menu li:last-child {
@@ -458,10 +513,11 @@ audio{
 
   }
 .testimonials-font{
-    font-size:7px !important;
+    font-size:9px !important;
 }
       .online-font{
-    font-size: 5px !important;
+    font-size: 9px !important;
+    left: -45px;  
 }
     /* animation text */
     .charlotte-text-fancy{
@@ -479,29 +535,33 @@ audio{
     
        /*about*/
     .textarea-about{
-    font-size: 15px;
+    font-size: 20px;
     padding: 20px;
     width: 300px;
     line-height: 1;
+    top: 80%;
    
 }
    /*testimonial*/
     .textarea-testimonial{
     font-size: 25px;
-    width: 300px;
-    top: 50%;
+    width: 350px;
+    top: 70%;
     
 }
     .disclaimer{
-    font-size: 8px;
+    font-size: 4px;
     left: 50%;
    
 }
     
     ._form{
-    top: 140%;
+    top: 100%;
     width: 300px;
 }
+    .thank-you{
+        font-size: 16px;
+    }
 
 }
 
