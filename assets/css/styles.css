@@ -384,13 +384,15 @@ audio{
 
     
 }
-@media only screen and (max-width: 480px){
-    .charlotte-header{
-        background-repeat: repeat;
+@media only screen and (max-width: 479px){
+    .charlotte-nav{
+        position: absolute;
+        left:0;
     }
+    
     .charlotte-menu li {
-        width: 11%;
-        height: 8px;
+        width: 12%;
+        height: 4px;
         position: relative;
         padding: 30px;
     }
@@ -432,16 +434,18 @@ audio{
     width: 400px;
 }
 }
-@media only screen and (max-width: 374px){
+@media only screen and (max-width: 373px){
     body{
         overflow: hidden;
     }
-    .charlotte-header{
+   
+    .charlotte-nav{
+        left: -38px;
     }
     .charlotte-menu li {
-        width: 10px;;
-        height: 14px;
-        padding: 30px;
+        width: 70px;
+        height: 10px;
+        padding: 20px;
     }
     .charlotte-menu li a{
        font-size: 6px;
@@ -450,6 +454,8 @@ audio{
     .charlotte-menu li:last-child {
      height: 60px;
     font-size: 8px;
+     height: 10px;
+
   }
 .testimonials-font{
     font-size:7px !important;
@@ -462,7 +468,7 @@ audio{
         font-size :30px;
     }
     .charlotte-text-fancy-content{
-        width: 80%;
+        width: 100%;
     }
      /*contact*/
     .textarea-contact{
