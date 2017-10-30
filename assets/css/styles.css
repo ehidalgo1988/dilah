@@ -165,8 +165,13 @@ z-index: 20;
     font-family: FrenchScriptMT, sans-serif;
     line-height: 1;
     
-    
-    
+}
+#font-normal{
+    font-family: serif ;
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-style: italic;
 }
 /*testimonial*/
 .textarea-testimonial{
@@ -419,6 +424,9 @@ audio{
     
 }
 @media only screen and (max-width: 480px){
+     .logo{
+        z-index: 0 !important;
+    }
     .charlotte-nav{
         position: absolute;
         left:-38px;
@@ -431,32 +439,59 @@ audio{
         padding: 30px;
     }
     .charlotte-menu li a{
-       font-size: 10px;
+       font-size: 12px;
         position: absolute;
         top:30px;
         left: 20px;
     }
     .charlotte-menu li:last-child {
-     height: 60px;
-    font-size: 7px;
+    
   }
-    .online-font{
-    margin-top: 9px !important;
-    font-size: 10px !important;
+    .online{
+    margin-top: 2px !important;
+    margin-left: -10px!important;
+    width: 105px !important;
+    font-size: 12px !important;
 }
+    .reading{
+         position: absolute;
+         top: 20px;
+         left: 25px;
+         letter-spacing: 2px;
+    } 
+  
+   /* text animtion   */
+    .charlotte-text-fancy {
+    height: 500px;
+    z-index: 1000 !important;
+
+  }
+
+ .charlotte-text-fancy-content {
+   height: 550px;
+    z-index: 1000 !important;
+
+  } 
+    .charlotte-text-fancy-content-inner {
+-webkit-animation: scroll 80s linear 2s infinite;
+animation: scroll 80s linear 2s infinite;
+z-index: 1000 !important;
+ height: 60px;
+  }
   
            /*about*/
     .textarea-about{
-    font-size: 25px;
+    top:110%;
+    font-size: 35px;
     padding: 20px;
-    width: 400px;
+    width: 420px;
     line-height: 1;
    
 }
         /*testimonial*/
     .textarea-testimonial{
     font-size: 30px;
-    width: 460px;
+    width: 480px;
     
 }
     .disclaimer {
